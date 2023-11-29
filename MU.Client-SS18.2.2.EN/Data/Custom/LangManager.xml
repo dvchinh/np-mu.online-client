@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageManager>
+	<Lang ID="0" FileName="English.xml" FontName="English" CharSet="1" CodePage="1252" NumByteForOneCharUTF8="2" EnableCodePage="1" Enable="1"/>
+	<Lang ID="1" FileName="Spanish.xml" FontName="English" CharSet="129" CodePage="1252" NumByteForOneCharUTF8="2" EnableCodePage="1" Enable="0"/>
+	<Lang ID="2" FileName="Portuguese.xml" FontName="English" CharSet="1" CodePage="65001" NumByteForOneCharUTF8="2" EnableCodePage="1" Enable="0"/>
+	<Lang ID="3" FileName="Korean.xml" FontName="Korean" CharSet="129" CodePage="949" NumByteForOneCharUTF8="3" EnableCodePage="1" Enable="0"/>
+	<Lang ID="4" FileName="Chinese.xml" FontName="China" CharSet="1" CodePage="0" NumByteForOneCharUTF8="2" EnableCodePage="0" Enable="0"/>
+	<Lang ID="5" FileName="Vietnamese.xml" FontName="English" CharSet="163" CodePage="65001" NumByteForOneCharUTF8="2" EnableCodePage="1" Enable="0"/>
+	<Lang ID="6" FileName="Russian.xml" FontName="English" CharSet="129" CodePage="0" NumByteForOneCharUTF8="2" EnableCodePage="0" Enable="0"/>.
+	<Lang ID="7" FileName="Japan.xml" FontName="Japan" CharSet="129" CodePage="0" NumByteForOneCharUTF8="2" EnableCodePage="0" Enable="0"/>
+	<Lang ID="8" FileName="Thailand.xml" FontName="Thailand" CharSet="129" CodePage="874" NumByteForOneCharUTF8="2" EnableCodePage="0" Enable="0"/>
+	<Lang ID="9" FileName="India.xml" FontName="India" CharSet="129" CodePage="1252" NumByteForOneCharUTF8="2" EnableCodePage="0" Enable="0"/>
+	<Lang ID="10" FileName="Taiwan.xml" FontName="Taiwan" CharSet="129" CodePage="1252" NumByteForOneCharUTF8="2" EnableCodePage="0" Enable="0"/>
+</LanguageManager>

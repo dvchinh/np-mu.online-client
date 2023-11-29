@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	ConnectIndex = (GameServerInfo - Common, Key=ServerCode)
+	Type = Type(0="PvP",1="Non-PvP"2="Gold PvP",3="Gold Non-PvP"
+	ShowName = show Server Name(ej:"Helheim")
+	ShowIndex = show Server Index (ej: Helheim-1,Helheim-2)
+	Name = remplace TypeName(ej:"(PvP)","(Non-PvP)",(Gold PvP),(Gold Non-PvP))
+	Color = edit color for server info
+		- State = (0="BTN_UP",1="BTN_DOWN",2="BTN_ACTIVE",3="BTN_DISABLE - dontUse")
+-->
+
+<ServerListManager>
+	<Info ConnectIndex="20" Type="0" ShowName="1" ShowIndex="1" Name="LouLx-Game">
+		<Color State="0" Button_R="255" Button_G="255" Button_B="180" Button_A="0" Name="Orange"/>
+		<Color State="1" Button_R="255" Button_G="255" Button_B="255" Button_A="121" Name="Yellow"/>
+		<Color State="2" Button_R="255" Button_G="119" Button_B="119" Button_A="119" Name="Gray"/>
+		<Color State="3" Button_R="0" Button_G="0" Button_B="0" Button_A="0" />
+		<!--	original
+		<Color State="0" Button_R="255" Button_G="226" Button_B="226" Button_A="226" />
+		<Color State="1" Button_R="255" Button_G="226" Button_B="226" Button_A="226" />
+		<Color State="2" Button_R="255" Button_G="255" Button_B="255" Button_A="255" />
+		<Color State="3" Button_R="0" Button_G="0" Button_B="0" Button_A="0" />
+		-->
+	</Info>
+	<Info ConnectIndex="20" Type="1" ShowName="1" ShowIndex="1" Name="LouLx-Game">
+		<Color State="0" Button_R="255" Button_G="255" Button_B="255" Button_A="121" />
+		<Color State="1" Button_R="255" Button_G="255" Button_B="255" Button_A="121" />
+		<Color State="2" Button_R="255" Button_G="255" Button_B="238" Button_A="193" />
+		<Color State="3" Button_R="0" Button_G="0" Button_B="0" Button_A="0" />
+	</Info>
+	<Info ConnectIndex="20" Type="2" ShowName="1" ShowIndex="1" Name="LouLx-Game">
+		<Color State="0" Button_R="255" Button_G="255" Button_B="180" Button_A="0" />
+		<Color State="1" Button_R="255" Button_G="255" Button_B="180" Button_A="0" />
+		<Color State="2" Button_R="255" Button_G="255" Button_B="217" Button_A="39" />
+		<Color State="3" Button_R="0" Button_G="0" Button_B="0" Button_A="0" />
+	</Info>
+	<Info ConnectIndex="20" Type="3" ShowName="1" ShowIndex="1" Name="LouLx-Game">
+		<Color State="0" Button_R="255" Button_G="255" Button_B="180" Button_A="0" />
+		<Color State="1" Button_R="255" Button_G="255" Button_B="180" Button_A="0" />
+		<Color State="2" Button_R="255" Button_G="255" Button_B="217" Button_A="39" />
+		<Color State="3" Button_R="0" Button_G="0" Button_B="0" Button_A="0" />
+	</Info>
+
+</ServerListManager>

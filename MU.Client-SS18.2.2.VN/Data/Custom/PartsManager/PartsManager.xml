@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- max Parts 300 -->
+
+<PartsManager>
+	<GMParts>
+		<Info GMName="GMNAME" modelPath="Data\\Custom\\PartsManager\\GMSingLegend\\" texturePath="Custom\\PartsManager\\GMSingLegend\\texture\\" modelName="musign" />
+	</GMParts>
+	<CharacterIconParts>
+		<Info CharacterIconID="999" BoneNumber="20" bBillBoard="true" x="70.0" y="-5.0" z="0.0" ax="0.0" ay="0.0" az="45.0" modelPath="Data\\Custom\\PartsManager\\GMSingLegend\\" texturePath="Custom\\PartsManager\\GMSingLegend\\texture\\" modelName="musign" />
+	</CharacterIconParts>
+</PartsManager>

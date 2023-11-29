@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language>
+	<!-- Cliente\Data\Local\Eng\ -->
+	<Local>
+		<File ID="0" Text="excellentcommonoption.bmd" />
+		<File ID="1" Text="excellentwingoption.bmd" />
+		<File ID="2" Text="helpdata.bmd" />
+		<File ID="3" Text="infotooltip.bmd" />
+		<File ID="4" Text="infotooltiptext.bmd" />
+		<File ID="5" Text="item.bmd" />
+		<File ID="6" Text="itemsetoption.bmd" />
+		<File ID="7" Text="itemsetoptiontext.bmd" />
+		<File ID="8" Text="itemtooltip.bmd" />
+		<File ID="9" Text="itemtooltiptext.bmd" />
+		<File ID="10" Text="JewelOfHarmonyOption.bmd" />
+		<File ID="11" Text="JewelOfHarmonySmelt.bmd" />
+		<File ID="12" Text="masterskilltooltip.bmd" />
+		<File ID="13" Text="muunoption.bmd" />
+		<File ID="14" Text="quest.bmd" />
+		<File ID="15" Text="QuestWords.bmd" />
+		<File ID="16" Text="ruudshopviewinfo.bmd" />
+		<File ID="17" Text="skilltooltiptext.bmd" />
+		<File ID="18" Text="socketitem.bmd" />
+		<File ID="19" Text="statoptiontext.bmd" />
+		<File ID="20" Text="serverlist.bmd" />
+	</Local>
+	<!-- Cliente\Data\Lang.mpr\Eng\ -->
+	<Lang Split="Eng">
+		<File ID="1" Text="4ThTreeSkillTooltip" />
+		<File ID="2" Text="ArcaBattleScript" />
+		<File ID="3" Text="BuffEffect" />
+		<File ID="4" Text="CharacterInfoSetup" />
+		<File ID="5" Text="Credit" />
+		<File ID="6" Text="Dialog(Kor)" />
+		<File ID="7" Text="EarringOptionText" />
+		<File ID="8" Text="ErtelSetOptionText" />
+		<File ID="9" Text="ErtelSetOption" />
+		<File ID="10" Text="ErtelSetOptionText" />
+		<File ID="11" Text="Filter(kor)" />
+		<File ID="12" Text="FilterName(kor)" />
+		<File ID="13" Text="Guardiantooltip" />
+		<File ID="14" Text="GuideQuest" />
+		<File ID="15" Text="GuideQuestString(Kor)" />
+		<File ID="16" Text="HuntingRecord" />
+		<File ID="17" Text="ItemLevelTooltip" />
+		<File ID="18" Text="JewelOfHarmonyOptionName" />
+		<File ID="19" Text="MapSearchInfo" />
+		<File ID="20" Text="MasteryItemBonusOption" />
+		<File ID="21" Text="MBoxShop(kor)" />
+		<File ID="22" Text="MonsterSoulConversion" />
+		<File ID="23" Text="MonsterSoulConversionDropInfo" />
+		<File ID="24" Text="movereq(kor)" />
+		<File ID="25" Text="MUQuest" />
+		<File ID="26" Text="MUQuestString(Kor)" />
+		<File ID="27" Text="Npcname(kor)" />
+		<File ID="28" Text="PentagramJewelOptionValue" />
+		<File ID="29" Text="PentagramOption" />
+		<File ID="30" Text="Relationevent" />
+		<File ID="31" Text="Skill(kor)" />
+		<File ID="32" Text="slide(kor)" />
+		<File ID="33" Text="Text(kor)" />
+		<File ID="34" Text="ArtifactOption"/>
+		<File ID="35" Text="MUPassMissionText"/>
+		<File ID="36" Text="MUPassRewardText"/>
+		<File ID="37" Text="MUPassShop"/>
+	</Lang>
+	<Message>
+		<MSG ID="0" Text="Level: %d | Resets: %d" />
+		<MSG ID="1" Text="Reconnecting..." />
+		<MSG ID="2" Text="Logging in..." />
+		<MSG ID="3" Text="Waiting character list..." />
+		<MSG ID="4" Text="Waiting character info..." />
+		<MSG ID="5" Text="ANTI-FREEZE" />
+		<MSG ID="6" Text="Delete Players" />
+		<MSG ID="7" Text="Delete Monsters" />
+		<MSG ID="8" Text="Delete Items Floor" />
+		<MSG ID="9" Text="Delete Zen Floor" />
+		<MSG ID="10" Text="Delete Render Objects" />
+		<MSG ID="11" Text="Delete Floors" />
+		<MSG ID="12" Text="Delete World Objects" />
+		<MSG ID="13" Text="Delete Effects" />
+		<MSG ID="14" Text="Automatic Optimization" />
+		<MSG ID="15" Text="Reduce RAM" />
+		<MSG ID="16" Text="Render Optimized" />
+		<MSG ID="20" Text="Close Windows" />
+		<MSG ID="21" Text="Not allowed to use in chaos castle" />
+		<MSG ID="40" Text="%s  | %s | LV: %d (NL: %d - ML: %d) | RR: %d | %s | %s (%d %d) | FPS: %d" />
+		
+		<!--<MSG ID="40" Text="%s [%s][%s][FPS:%d][LV:%d (NL:%d - ML:%d)] [RR: %d] - %s (%d %d)" /> -->
+
+   <!-- <MSG ID="40" Text="%s [%s][LV:%d (NL:%d - ML:%d)] [RR: %d] - %s (%d %d) [FPS:%d]" /> -->
+	</Message>
+	<CustomSellItem>
+    <!-- CoinType: 0-Zen    1-Ruud    2-WCoin    3-GP -->
+        
+		<MSG ID="0" Text="Purchasing Zen price: %s(%s)" />
+        <MSG ID="1" Text="Selling Zen Price: %s" />
+        <MSG ID="2" Text="Zen:%d" />
+        <MSG ID="3" Text="Selling Zen Price: (Min:%s/Max:%s)" />
+
+        <MSG ID="4" Text="Purchasing Ruud price: %s(%s)" />
+        <MSG ID="5" Text="Selling Ruud Price: %s" />
+        <MSG ID="6" Text="Ruud:%d" />
+        <MSG ID="7" Text="Selling Ruud Price: (Min:%s/Max:%s)" />
+
+        <MSG ID="8" Text="Purchasing WCoin price: %s(%s)" />
+        <MSG ID="9" Text="Selling WCoin Price: %s" />
+        <MSG ID="10" Text="WCoin:%d" />
+        <MSG ID="11" Text="Selling WCoin Price: (Min:%s/Max:%s)" />
+
+        <MSG ID="12" Text="Purchasing Goblin Point price: %s(%s)" />
+        <MSG ID="13" Text="Selling Goblin Point Price: %s" />
+        <MSG ID="14" Text="Goblin Point:%d" />
+        <MSG ID="15" Text="Selling Goblin Point Price: (Min:%s/Max:%s)" />
+	
+	</CustomSellItem>
+	<CustomItemOption>
+		<MSG ID="0" Text="When attacking, deal +%d times damage, chance is% d %%"/>
+		<MSG ID="1" Text="When the target's health is lower than d%%, %d%% chance to directly kill the target"/>
+	</CustomItemOption>
+	<Command>	<!-- set command text for multilang support -->
+		<Info Command="/post" />
+		<Info Command="/buy" />
+		<Info Command="/sell" />
+		<Info Command="/gmpost" />
+		<Info Command="/notice" />
+		<Info Command="/gpost" />
+	</Command>
+	<Discord>
+		<Info ID="0" State="Open Game" Details="www.Mudevs.com" startDate="1" EndDate="0">
+			<LargeImage Key="308630201_514568240676500_785666480792931446_n">
+			</LargeImage>
+		</Info> 
+		<Info ID="1" State="Select Server" Details="www.Mudevs.com" startDate="0" EndDate="0">
+			<LargeImage Key="308630201_514568240676500_785666480792931446_n">
+			</LargeImage>
+		</Info> 
+		<Info ID="2" State="Login Account" Details="www.Mudevs.com" startDate="0" EndDate="0">
+			<LargeImage Key="308630201_514568240676500_785666480792931446_n">
+			</LargeImage>
+		</Info> 
+		<Info ID="3" State="Select Character" Details="www.Mudevs.com" startDate="0" EndDate="0">
+			<LargeImage Key="308630201_514568240676500_785666480792931446_n">
+			</LargeImage>
+		</Info> 
+		<Info ID="4" State="Playing" Details="www.Mudevs.com" startDate="0" EndDate="0">
+			<LargeImage Key="308630201_514568240676500_785666480792931446_n">
+				<LargeFormat Type="0" Text="Map:%s"/>
+			</LargeImage>
+			<SmallImage Key="308630201_514568240676500_785666480792931446_n">
+				<SmallFormat Type="2" Text="Name:%s,"/>
+				<SmallFormat Type="3" Text="TotalLvl:%d,"/>
+				<SmallFormat Type="4" Text="NLevel:%d,"/>
+				<SmallFormat Type="5" Text="MLevel:%d,"/>
+				<SmallFormat Type="6" Text="Reset:%d"/>
+			</SmallImage>
+			<ClassImageKey>
+				<Image Class="0" Key="icon1"/>
+				<Image Class="1" Key="icon2"/>
+				<Image Class="2" Key="icon3"/>
+				<Image Class="3" Key="icon4"/>
+				<Image Class="4" Key="icon5"/>
+				<Image Class="5" Key="icon6"/>
+				<Image Class="6" Key="icon7"/>
+				<Image Class="7" Key="icon8"/>
+				<Image Class="8" Key="icon9"/>
+				<Image Class="9" Key="icon10"/>
+				<Image Class="10" Key="icon11"/>
+				<Image Class="11" Key="icon12"/>
+				<Image Class="12" Key="icon13"/>
+				<Image Class="13" Key="icon14"/>
+			</ClassImageKey>
+		</Info> 
+		
+		
+	</Discord>
+</Language>

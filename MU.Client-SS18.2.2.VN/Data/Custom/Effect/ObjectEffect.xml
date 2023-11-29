@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+=============================================================
+Effect Type
+=============================================================
+EFFECT_RENDER_TYPE_NONE = 0
+EFFECT_RENDER_TYPE_SPRITE = 1
+EFFECT_RENDER_TYPE_JOINT = 2
+EFFECT_RENDER_TYPE_PARTICLE = 3
+EFFECT_RENDER_TYPE_EFFECT = 4
+EFFECT_RENDER_TYPE_TERRAIN_BIITMAP = 5
+
+=============================================================
+Transform Type
+=============================================================
+EFFECT_TRANSFORM_TYPE_NONE = 0
+EFFECT_TRANSFORM_TYPE_POSITION = 1
+EFFECT_TRANSFORM_TYPE_BY_BONE = 2
+EFFECT_TRANSFORM_TYPE_BY_MATRIX = 3
+
+=============================================================
+Formula Type
+=============================================================
+formulaT = create a valid format for fType, for rand value use KEY="r" for % use KEY="~"
+EFFECT_FORMULA_TYPE_NONE = 0
+EFFECT_FORMULA_TYPE_SCALE = 1
+EFFECT_FORMULA_TYPE_RANDOM_1 = 2
+EFFECT_FORMULA_TYPE_RANDOM_2 = 3
+EFFECT_FORMULA_TYPE_ROTATE_1 = 4
+EFFECT_FORMULA_TYPE_ROTATE_2 = 5
+1576 = character ObjectIndex
+1651 = kRISS
+-->
+
+<ObjectEffect>
+	<Object Index="1651" Name="Kriss">	
+		<Effect Index="32419" Type="3" maxSeq="1" Scale="10.0" useOwner="1" subType="0" eAlphaBlend="1" >
+			<vecTI>
+				<vecT seq="0" boneID="0" usePosition ="1" positionX="0.0" positionY="0.0" positionZ="0.0" useLight="1" lightX="0.1" lightY="0.4" lightZ="0.9" />
+			</vecTI>
+			<transI>
+				<trans seq="0" Transform="1" boneID="0" translate="1" useOwner="1" useRelative="0" RelativeX="0" RelativeY="0" RelativeZ="0" />
+			</transI>
+			<forI type="0" randF="(r~4)" fbase="1" >
+				 <formula seq="0" fType="1" formulaT="((r~15)/30.0f)+0.5" fbase="0" />
+				 <formula seq="0" fType="5" formulaT="(%f*0.01)" fbase="0" />
+				<!--  <formula seq="0" fType="4" formulaT="(r~360)" fbase="0" />  -->
+			</forI>
+			<Target>
+				 <TargetPos seq="0" TargetX="0" TargetY="0" TargetZ="0"/> 
+			</Target>
+			<AngleInfo>
+				 <Angle seq="0" AngleX="0" AngleY="0" AngleZ="0"/> 
+			</AngleInfo>
+			<ColorInfo>
+				 <Color seq="0" ColorR="0" ColorG="0" ColorB="0"/> 
+			</ColorInfo>
+			<AlphaBitmapInfo>
+				<AlphaBitmap seq="0" SizeX="1.8" SizeY="1.8" Alpha="1.0" Height="5.0"/>
+			</AlphaBitmapInfo>
+		</Effect>
+	</Object>
+</ObjectEffect>

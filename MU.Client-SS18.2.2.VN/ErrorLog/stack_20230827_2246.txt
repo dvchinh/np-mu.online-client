@@ -1,0 +1,5 @@
+Client Version 
+
+[Exception Address] 0x1614430
+[Exception Code] STATUS_ACCESS_VIOLATION
+StackWalk failed: 487

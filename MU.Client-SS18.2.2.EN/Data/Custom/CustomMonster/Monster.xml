@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	modelType = 2 -> monster
+	modelType = 4 -> NPC
+	
+MonsterEquipament::Slot ID={
+	0 -> Weapon 
+	1 -> Weapon 
+	2 -> Head 
+	3 -> Helm 
+	4 -> Armor 
+	5 -> Pants 
+	6 -> Golves 
+	7 -> Bots 
+	8 -> Wing
+	9 -> Helper
+	10 -> Flag
+}
+MonsterColor::RenderType
+{
+	RENDER_COLOR        0x00000001
+	RENDER_TEXTURE      0x00000002
+	RENDER_CHROME       0x00000004
+	RENDER_METAL        0x00000008
+	RENDER_LIGHTMAP     0x00000010
+	RENDER_SHADOWMAP    0x00000020
+	RENDER_BRIGHT       0x00000040
+	RENDER_DARK         0x00000080
+	RENDER_EXTRA        0x00000100
+	RENDER_CHROME2      0x00000200
+	RENDER_WAVE			0x00000400
+	RENDER_CHROME3      0x00000800  
+	RENDER_CHROME4      0x00001000  
+	RENDER_NODEPTH      0x00002000
+	RENDER_CHROME5      0x00004000
+	RENDER_OIL          0x00008000
+	RENDER_CHROME6      0x00010000
+	RENDER_CHROME7      0x00020000
+	RENDER_DOPPELGANGER 0x00040000
+	RENDER_CHROME8      0x00080000	
+	RENDER_WAVE_EXT		0x10000000
+	RENDER_BYSCRIPT		0x80000000
+}
+MonsterEffect::Info::type
+{
+ 0 = Sprite
+ 1 = Effect
+}
+
+MonsterEffect::Info::Index
+{
+	BITMAP_LIGHTMARKS = 32387
+	
+	MODEL_EFFECT_FIRE_HIK3_MONO = 577
+}
+501
+-->
+
+<CustomMonster>
+	<!-- Custom Monster System -->
+	<MonsterList>
+		<!--<Monster Index="950" SubIndex="-1" modelName="Monster32" modelSeq="-1" monsterName="Anubis" modelType="2" modelSize="1.0" EnabledBodyLight="1" BodyLightR="1.0" BodyLightG="0.5" BodyLightB="0.0" /> -->
+	</MonsterList>
+	<!-- Custom Monster Color System -->
+	<MonsterColor>
+		<!--<Info Index="950" enableBL="1" backupBodyLight="1" LightR="1.0" LightG="0.6" LightB="0.3" RenderType="68" SubRenderType="72" Bright="1.0"  /> -->
+	</MonsterColor>
+	<!-- Custom Monster Effect System -->
+	<MonsterEffect>
+		<!--<Effect Index="950">
+			<Info Type="0" Order="0" BoneID="0" Index="32387" EffectLightColorR="1.0" EffectLightColorG="0.6" EffectLightColorB="0.1" Scale="2.5" Rotation="0.0" SubType="0" UnkVal="4" />
+			<Info Type="0" Order="1" BoneID="4" Index="32387" EffectLightColorR="1.0" EffectLightColorG="0.6" EffectLightColorB="0.1" Scale="2.5" Rotation="0.0" SubType="0" UnkVal="4" />
+			<Info Type="0" Order="2" BoneID="57" Index="32387" EffectLightColorR="1.0" EffectLightColorG="0.6" EffectLightColorB="0.1" Scale="2.5" Rotation="0.0" SubType="0" UnkVal="4" />
+			<Info Type="0" Order="3" BoneID="60" Index="32387" EffectLightColorR="1.0" EffectLightColorG="0.6" EffectLightColorB="0.1" Scale="2.5" Rotation="0.0" SubType="0" UnkVal="4" />
+			<Info Type="0" Order="4" BoneID="87" Index="32387" EffectLightColorR="1.0" EffectLightColorG="0.6" EffectLightColorB="0.1" Scale="2.5" Rotation="0.0" SubType="0" UnkVal="4" />
+			<Info Type="1" Order="5" BoneID="57" Index="577" EffectLightColorR="1.0" EffectLightColorG="0.8" EffectLightColorB="0.1" Scale="1.6" Rotation="0.0" SubType="1" UnkVal="4" />
+			<Info Type="1" Order="6" BoneID="60" Index="577" EffectLightColorR="1.0" EffectLightColorG="0.8" EffectLightColorB="0.1" Scale="1.6" Rotation="0.0" SubType="1" UnkVal="4" />
+			<Info Type="1" Order="7" BoneID="66" Index="577" EffectLightColorR="1.0" EffectLightColorG="0.8" EffectLightColorB="0.1" Scale="1.6" Rotation="0.0" SubType="1" UnkVal="4" />
+			<Info Type="1" Order="8" BoneID="78" Index="577" EffectLightColorR="1.0" EffectLightColorG="0.8" EffectLightColorB="0.1" Scale="1.6" Rotation="0.0" SubType="1" UnkVal="4" />
+			<Info Type="1" Order="9" BoneID="91" Index="577" EffectLightColorR="1.0" EffectLightColorG="0.8" EffectLightColorB="0.1" Scale="1.6" Rotation="0.0" SubType="1" UnkVal="4" />
+		</Effect> -->
+	</MonsterEffect>
+	<!-- Monster Name Color System -->
+	<MonsterNameColor>
+		<!-- <Info Index="82" ColorID="-1" NameColor="#00FF00" NameSize="30" /> -->
+		<!-- <Info Index="950" ColorID="-1" NameColor="#00FF00" NameSize="30" /> -->
+	</MonsterNameColor>
+	<!-- Custom Monster Equipament System -->
+	<MonsterEquipament>
+		<!--<Info Index="950">
+			<Slot ID="0" BoneID="32" Index="16" Level="0" Excellent="63" Ancient="0"/>
+			<Slot ID="1" BoneID="43" Index="16" Level="0" Excellent="63" Ancient="0"/>
+		</Info>-->
+		<!--<Info Index="82">
+			<Slot ID="0" BoneID="32" Index="16" Level="0" Excellent="63" Ancient="0"/>
+			<Slot ID="1" BoneID="43" Index="16" Level="0" Excellent="63" Ancient="0"/>
+		</Info>
+		-->
+	</MonsterEquipament>
+	<MonsterSound>
+		<!--<Info Index="950">
+			<Sound Index="7000" Slot="0" Path="Data\Sound_\Arenill\TempleOgre_attack.wav" />
+		</Info>-->
+	</MonsterSound>
+</CustomMonster>

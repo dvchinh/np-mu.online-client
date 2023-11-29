@@ -382,6 +382,8 @@
 47@8@580@Pendant of Ice@170@500000@DK - 3 - FULL EX +15@@182@184@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@5800|@6681@3@1@5800|@0@0@669
 47@9@581@Pendant of Wind@170@500000@DK - 3 - FULL EX +15@@182@184@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@5810|@6682@3@1@5810|@0@0@669
 47@10@582@Pendant of Water@170@500000@DK - 3 - FULL EX +15@@182@184@0@0@177@1@W Coin (P)@W Coin (P)@181@200@0@5820|@6683@3@1@5820|@0@0@669
+48@16@583@Silver Key@170@25@Ket hop voi Sealed Silver Box.@@182@184@0@0@177@1@Gobin P@Gobin P@181@200@0@1000|@7280@2@1@5830|@0@508@669
+48@16@584@Golden Key@170@50@Ket hop voi Sealed Golden Box.@@182@184@0@0@177@1@Gobin P@Gobin P@181@200@0@1000|@7281@2@1@5830|@0@508@669
 61@1@382@Bloodangel Knight Helm@170@500000@Description@@182@184@0@0@177@1@Goblin Points@Goblin Points@181@200@0@3820|@3682@5@1@3820|@1@509@669
 61@2@383@Bloodangel Wizard Helm@170@500000@Description@@182@184@0@0@177@1@Goblin Points@Goblin Points@181@200@0@3830|@3683@5@1@3830|@1@509@669
 61@3@384@Bloodangel Elf Helm@170@500000@Description@@182@184@0@0@177@1@Goblin Points@Goblin Points@181@200@0@3840|@3684@5@1@3840|@1@509@669
